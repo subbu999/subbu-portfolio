@@ -1,0 +1,30 @@
+.contact-container{
+background-color: rgba(126, 126, 99, 0.543);
+}
+input,textarea{
+    border: none;
+}
+input:focus,textarea:focus{
+    outline: none!important;
+    box-shadow: none;    
+    border-bottom: 2px solid rgb(98, 98, 79);
+}
+.form-control{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+.send-btn{
+    background-color: rgb(98, 98, 79);
+    color:#fff;    
+}
+/* .spinner-border{
+    display: none;
+} */

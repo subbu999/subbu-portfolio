@@ -1,0 +1,60 @@
+.about-me{
+    background-color: rgb(245, 250, 197);
+    border-radius: 100px 0 100px 0;
+    -webkit-border-radius: 100px 0 100px 0;
+    -moz-border-radius: 100px 0 100px 0;
+    -ms-border-radius: 100px 0 100px 0;
+    -o-border-radius: 100px 0 100px 0;
+}
+.about-me img{
+    border-radius: 0 30% 0;
+    -webkit-border-radius: 0 30% 0;
+    -moz-border-radius: 0 30% 0;
+    -ms-border-radius: 0 30% 0;
+    -o-border-radius: 0 30% 0;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, .6);
+}
+.sub-heading{
+    width: fit-content;
+    font-weight: normal;
+    padding: 5px 20px;
+    margin: 20px auto;
+    color: rgb(255, 51, 92);
+    border:3px solid rgb(255, 51, 92);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    user-select: none;
+}
+.fa-3x{
+    font-size: 2.5rem;
+}
+.portfolio-btn{
+    background-color: rgb(98, 98, 79);
+    color:#fff;    
+}
+.portfolio-btn span{
+    position: relative;
+    display: inline-block;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.portfolio-btn span::after{
+    position: absolute;
+    top:0;
+    right:-20px;
+    content: '\00bb';
+    opacity: 0;
+}
+.portfolio-btn:hover span{
+    padding-right: 10px;
+}
+.portfolio-btn:hover span::after{
+    padding-right: 20px;
+    opacity: 1;
+}

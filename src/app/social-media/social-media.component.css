@@ -1,0 +1,20 @@
+.social-media{
+    background-color: rgba(126, 126, 99, 0.543);
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -ms-border-radius: 10px 0 0 10px;
+    -o-border-radius: 10px 0 0 10px;
+}
+.social-media a{
+    text-decoration: none;
+}
+.social-media a i.fa-facebook{
+    color:#1890f2;
+}
+.social-media a i.fa-instagram{
+    color:#d62976;
+}
+.social-media a i.fa-whatsapp{
+    color: #128C7E;
+}

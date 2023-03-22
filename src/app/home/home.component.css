@@ -1,0 +1,35 @@
+#home{
+    min-height:calc(100vh - 56px);
+    background-image: url(./../../assets/img/bs-5-bg-2.jpg);
+    background-position:center top;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    user-select: none;
+}
+.about-btn{
+    background-color: rgb(98, 98, 79);
+    color:#fff;    
+}
+.about-btn span{
+    position: relative;
+    display: inline-block;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.about-btn span::after{
+    position: absolute;
+    top:0;
+    right:-20px;
+    content: '\00bb';
+    opacity: 0;
+}
+.about-btn:hover span{
+    padding-right: 10px;
+}
+.about-btn:hover span::after{
+    padding-right: 20px;
+    opacity: 1;
+}
