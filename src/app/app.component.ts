@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { trigger, state, style, animate, transition } from '@angular/animations';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,5 +6,5 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   animations: []
 })
 export class AppComponent {
-  title = 'subbu-portfolio';
+
 }
