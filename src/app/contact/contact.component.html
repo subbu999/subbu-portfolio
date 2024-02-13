@@ -1,0 +1,63 @@
+<div class="container bg-white my-5 p-5">
+  <div class="row justify-content-center">
+    <div class="col-md-7 text-center py-2">
+      <div class="title-wrapper mb-4">
+        <p class="display-6 title-design mb-0">Where To Find Me ?</p>
+        <i class="fa-brands fa-pagelines text-danger"></i>
+      </div>
+      <p>
+        On the right side of this page you can find the links to my social media
+        accounts. If you wanna make a conversation through mail, feel free to
+        fill the form and submit. I will get back to you shortly!!
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 text-dark p-5 contact-container">
+      <form class="form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <input
+            type="text"
+            formControlName="name"
+            class="form-control"
+            placeholder="Enter your name"
+            name="name"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            formControlName="email"
+            class="form-control"
+            placeholder="Email Address"
+            name="email"
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            formControlName="message"
+            class="form-control"
+            rows="10"
+            placeholder="Message"
+            name="message"
+          ></textarea>
+        </div>
+        <div class="col-sm-12">
+          <button
+            type="sub
+                    "
+            class="btn send-btn rounded-pill"
+          >
+            Send Me
+            <div
+              class="spinner-border spinner-border-sm text-white"
+              role="status"
+              [style]="spinner ? 'display:inline-block' : 'display:none'"
+            ></div>
+          </button>
+          <div></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

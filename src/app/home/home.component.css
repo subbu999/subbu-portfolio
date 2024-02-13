@@ -1,0 +1,16 @@
+#home {
+  min-height: calc(100vh - 56px);
+  background-image: url(./../../assets/img/bs-5-bg-2.jpg);
+  background-position: center bottom;
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+  user-select: none;
+}
+
+.sub-title {
+  color: #444;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+}

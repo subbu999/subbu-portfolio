@@ -1,0 +1,23 @@
+.social-media {
+  background-color: rgba(126, 126, 99, 0.643);
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+  border-top: 0.5px solid #fff;
+  border-left: 0.5px solid #fff;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.6);
+}
+.social-media a {
+  text-decoration: none;
+}
+.social-media a i.fa-facebook {
+  color: #097ddb;
+}
+.social-media a i.fa-instagram {
+  color: #d62976;
+}
+.social-media a i.fa-whatsapp {
+  color: #0e8d7e;
+}

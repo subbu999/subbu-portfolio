@@ -1,0 +1,187 @@
+<div class="container bg-white p-5 my-5">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="about-me p-3 p-md-5 border border-2 border-secondary">
+        <div class="row justify content-center align-items-center">
+          <div class="col-md-5 text-center py-2">
+            <img
+              src="./../../assets/img/me.jpg"
+              width="200px"
+              alt="Subbu Photo"
+              class="img-fluid border border-4 border-start-0 border-bottom-0 border-secondary"
+            />
+          </div>
+          <div class="col-md-7 text-center py-2">
+            <div class="title-wrapper mb-4">
+              <p class="display-6 title-design mb-0">Who Am I ?</p>
+              <i class="fa-brands fa-pagelines text-danger"></i>
+            </div>
+            <p>
+              Hi, I'm Venkata Subbarao Balineni. I'm an artist and a front end
+              web developer with 5+ years of experience. I create successful
+              websites that are fast, easy to use, and built with best
+              practices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="my-skills py-5">
+        <div class="row mb-4">
+          <div class="col-sm-12">
+            <h3 class="sub-heading">My Skills</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-12 col-md-4 my-3">
+            <img
+              src="./../../assets/img/me-2.jpg"
+              alt=""
+              class="img-fluid border border-5 border-top-0 border-start-0 border-secondary rounded-5"
+            />
+          </div>
+          <div class="col-sm-12 col-md-8 my-3">
+            <div class="skills">
+              <div
+                class="skill d-flex text-center align-items-center justify-content-around py-2"
+              >
+                <div class="skill-icon w-20">
+                  <i class="fa-brands fa-html5 fa-3x text-danger"></i>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress" style="height: 18px">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                      [@html-width]="htmlRevealState"
+                      role="progressbar"
+                      area-valuenow="75"
+                      area-valuemin="0"
+                      area-valuemax="100"
+                    >
+                      HTML - 75%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="skill d-flex text-center align-items-center justify-content-around py-2"
+              >
+                <div class="skill-icon w-20">
+                  <i class="fa-brands fa-css3-alt fa-3x text-primary"></i>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress" style="height: 18px">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                      [@css-width]="cssRevealState"
+                      role="progressbar"
+                      area-valuenow="80"
+                      area-valuemin="0"
+                      area-valuemax="100"
+                    >
+                      CSS - 80%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="skill d-flex text-center align-items-center justify-content-around py-2"
+              >
+                <div class="skill-icon w-20">
+                  <i class="fa-brands fa-js fa-3x text-warning"></i>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress" style="height: 18px">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                      [@js-width]="jsRevealState"
+                      role="progressbar"
+                      area-valuenow="72"
+                      area-valuemin="0"
+                      area-valuemax="100"
+                    >
+                      JS - 72%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="skill d-flex text-center align-items-center justify-content-around py-2"
+              >
+                <div class="skill-icon w-20">
+                  <i class="fa-brands fa-bootstrap fa-3x text-success"></i>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress" style="height: 18px">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                      [@bs-width]="bsRevealState"
+                      role="progressbar"
+                      area-valuenow="78"
+                      area-valuemin="0"
+                      area-valuemax="100"
+                    >
+                      Bootstrap - 78%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="skill d-flex text-center align-items-center justify-content-around py-2"
+              >
+                <div class="skill-icon w-20">
+                  <i class="fa-brands fa-angular fa-3x text-danger"></i>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress" style="height: 18px">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                      [@ng-width]="ngRevealState"
+                      role="progressbar"
+                      area-valuenow="70"
+                      area-valuemin="0"
+                      area-valuemax="100"
+                    >
+                      Angular - 70%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="skill d-flex text-center align-items-center justify-content-around py-2"
+              >
+                <div class="skill-icon w-20">
+                  <i class="fa-brands fa-node-js fa-3x text-primary"></i>
+                </div>
+                <div class="skill-progress-bar">
+                  <div class="progress" style="height: 18px">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                      [@node-width]="nodeRevealState"
+                      role="progressbar"
+                      area-valuenow="50"
+                      area-valuemin="0"
+                      area-valuemax="100"
+                    >
+                      NodeJS - 50%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row py-4">
+    <div class="col-sm-12 text-center">
+      <div class="custom-btn-wrapper">
+        <a routerLink="/portfolio" class="custom-btn"><span>My Works</span></a>
+      </div>
+    </div>
+  </div>
+</div>
